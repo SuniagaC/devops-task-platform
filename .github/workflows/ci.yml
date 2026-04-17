@@ -27,6 +27,7 @@ jobs:
 
     env:
       DATABASE_URL: postgresql://devops:devops@localhost:5432/devopslab
+      PYTHONPATH: .
 
     steps:
       - name: Checkout repository
